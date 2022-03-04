@@ -4,7 +4,8 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Cafe De Sarah</title>
+	<title>La Cuisine De Sarah
+</title>
 	<!-- Stylesheets -->
 	<link href="{{ asset('assets/frontend_assets/assets/css/bootstrap.css') }}" rel="stylesheet">
 

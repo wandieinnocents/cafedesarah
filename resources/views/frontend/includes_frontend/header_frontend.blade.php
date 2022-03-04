@@ -107,7 +107,7 @@
 					<div class="logo pull-left">
 						<!-- <a href="index-2.html" class="img-responsive"><img src="assets/frontend_assets/assets/images/logo-small.png" alt=""
 								title=""></a> -->
-								<h2><strong>CAFE DE SARAH</strong></h2>
+								<h2><strong>La Cuisine De Sarah</strong></h2>
 					</div>
 
 					<!--Right Col-->
