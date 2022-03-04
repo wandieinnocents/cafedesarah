@@ -38,7 +38,7 @@
 						<div class="logo-outer">
 							<!-- <div class="logo"><a href="index-2.html"><img src="assets/frontend_assets/assets/images/logo/white.png"  width="100" height="100" alt=""
 										title=""></a></div> -->
-										<h2 style="margin-top:20px; color:white;"><strong>CAFE DE SARAH</strong></h2>
+										<h2 style="margin-top:20px; color:white;"><strong>La Cuisine De Sarah</strong></h2>
 						</div>
 
 						<!--Nav Box-->
