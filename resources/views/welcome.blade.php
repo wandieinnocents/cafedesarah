@@ -25,7 +25,7 @@
 						<div class="inner-column">
 							<h2>Our Background</h2>
 							<div class="text">
-								<p>la cuisine de sarah , founded 2021 by Ex intercontinental cuisine chef , Mbonde bilari who 
+								<p>la cuisine de sarah ,  founded 2021 by Ex intercontinental cuisine chef , Mbonde bilari who 
 									worked with several 5 star hotels and restaurants around the globe , the name “ 
 									la cuisine de Sarah”derives from his late mom sarah , which means (Sarah’s kitchen)la 
 									cuisine de sarah is a business combined with extraordinary 5 star service in food 
