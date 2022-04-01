@@ -70,7 +70,7 @@
                                         </div>
                                         <div class="col-md-6">
                                         <div class="price" style="font-size:15px;">
-                                        <a href="" data-toggle="modal" data-target="#viewFoodModal"><span>Details<i class="fas fa-angle-right" style="margin-left:5px;"></i></span></a>
+                                        <a href="" data-toggle="modal" data-target="#viewFoodModal{{$foodmenu->id}}"><span>Details<i class="fas fa-angle-right" style="margin-left:5px;"></i></span></a>
 
                                     </div>
                                         </div>
@@ -94,7 +94,7 @@
             
              <!-- The Modal -->
              <div class="modal-dialog">
-                  <div class="modal" id="viewFoodModal">
+                  <div class="modal" id="viewFoodModal{{$foodmenu->id}}">
                 <div class="modal-dialog" style="margin-top: 10%;">
                 <div class="modal-content">
                 
