@@ -45,10 +45,20 @@
                             <div class="clearfix">
                                 <div class="pull-left">
                                     <h4><a href="#">{{ $foodmenu->foodmenu_name }}</a></h4>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                        <div class="price" style="font-size:15px;">{{ $foodmenu->foodmenu_price }} UGX</div>
+                                        </div>
+                                        <div class="col-md-6">
+                                        <div class="price" style="font-size:15px;">Details</div>
+                                        </div>
+                                    </div>
+
                                 </div>
-                                <div class="pull-right">
-                                    <div class="price">${{ $foodmenu->foodmenu_price }}</div>
-                                </div>
+                                <!-- <div class="pull-right">
+                                    <div class="price">{{ $foodmenu->foodmenu_price }} UGX</div>
+                                </div> -->
 								
                             </div>
 							<div class="clearfix">
