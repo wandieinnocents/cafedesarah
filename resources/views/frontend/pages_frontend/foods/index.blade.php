@@ -51,7 +51,9 @@
                                         <div class="price" style="font-size:15px;">{{ $foodmenu->foodmenu_price }} UGX</div>
                                         </div>
                                         <div class="col-md-6">
-                                        <div class="price" style="font-size:15px;">Details</div>
+                                        <div class="price" style="font-size:15px;">
+                                        <span>Details<i class="fas fa-angle-right" style="margin-left:5px;"></i></span>
+                                    </div>
                                         </div>
                                     </div>
 
