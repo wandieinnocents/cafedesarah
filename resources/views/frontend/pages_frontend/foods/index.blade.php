@@ -107,6 +107,7 @@
                     <!-- Modal body -->
                     <div class="modal-body">
                     <p>PRICE : {{ $foodmenu->foodmenu_price}} </p>
+                    <hr>
                     <p>Description : {{ $foodmenu->foodmenu_description}} </p>
                     </div>
                     
