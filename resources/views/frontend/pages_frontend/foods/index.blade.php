@@ -63,8 +63,8 @@
 								
                             </div>
 							<div class="clearfix">
-                            <div class="pull-left text" style="margin-top:0px">Onion, good-quality beef mince, egg, vegetable oil, burger buns,
-                                black pepper, salt</div>
+                            <div class="pull-left text" style="margin-top:0px">{{ \Illuminate\Support\Str::limit($foodmenu->foodmenu_description, 100, $end='....') }}</div>
+                            
 
 								
 							</div>
