@@ -44,7 +44,7 @@
                             </div>
                             <div class="clearfix">
                                 <div class="pull-left">
-                                    <h4><a href="#">{{ $foodmenu->foodmenu_name }}</a></h4>
+                                    <h4 style="font-size:15px;"><a href="#">{{ $foodmenu->foodmenu_name }}</a></h4>
                                     
                                     <div class="row">
                                         <div class="col-md-6">
@@ -58,13 +58,11 @@
                                     </div>
 
                                 </div>
-                                <!-- <div class="pull-right">
-                                    <div class="price">{{ $foodmenu->foodmenu_price }} UGX</div>
-                                </div> -->
+                     
 								
                             </div>
 							<div class="clearfix">
-                            <div class="pull-left text">Onion, good-quality beef mince, egg, vegetable oil, burger buns,
+                            <div class="pull-left text" style="margin-top:0px">Onion, good-quality beef mince, egg, vegetable oil, burger buns,
                                 black pepper, salt</div>
 
 								
