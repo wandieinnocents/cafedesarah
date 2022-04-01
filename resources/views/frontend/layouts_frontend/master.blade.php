@@ -37,10 +37,12 @@
 
 	<style>
 		.imageBg {
-			background-image: url('https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_960_720.jpg');
+			background-image: url({{ asset('assets/frontend_assets/assets/images/logo/black.png') }});
   			background-repeat: no-repeat;
 			background-attachment: fixed;
  			background-position: center; 
+			 background-size: 500px 500px;
+			
             /* opacity: 0.3; */
 			 			 /* opacity: 0.6; */
 		}
