@@ -4,6 +4,10 @@
 
 @endsection
 
+@section('extra_styles')
+
+@endsection
+
 @section('content')
 <!-- content  -->
 
@@ -58,15 +62,9 @@
                                     </div>
 
                                 </div>
-                                
-                     
-								
                             </div>
 							<div class="clearfix">
                             <div class="pull-left text" style="margin-top:0px">{{ \Illuminate\Support\Str::limit($foodmenu->foodmenu_description, 100, $end='....') }}</div>
-                            
-
-								
 							</div>
 
                         </div>
@@ -94,5 +92,9 @@
 
 
 
+
+@endsection
+
+@section('extra_scripts')
 
 @endsection
