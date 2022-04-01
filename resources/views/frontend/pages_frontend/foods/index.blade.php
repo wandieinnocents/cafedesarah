@@ -40,7 +40,7 @@
                     <div class="dish-block style-three">
                         <div class="inner-box">
                             <div class="image">
-                                <img src="{{ asset($foodmenu->foodmenu_photo) }} " style="width: 100%; height:100%;">
+                                <img src="{{ asset($foodmenu->foodmenu_photo) }}" style="width: 100%; height:100%;">
                             </div>
                             <div class="clearfix">
                                 <div class="pull-left">
@@ -58,6 +58,7 @@
                                     </div>
 
                                 </div>
+                                
                      
 								
                             </div>
