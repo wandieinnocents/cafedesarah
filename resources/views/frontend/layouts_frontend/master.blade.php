@@ -37,14 +37,13 @@
 
 	<style>
 		.imageBg {
-			background-image: url({{ asset('assets/frontend_assets/assets/images/logo/black.png') }});
+			background-image: url({{ asset('assets/frontend_assets/assets/images/logo/log.png') }});
   			background-repeat: no-repeat;
 			background-attachment: fixed;
  			background-position: center; 
 			 background-size: 500px 500px;
+			/* opacity:0.5; */
 			
-            /* opacity: 0.3; */
-			 			 /* opacity: 0.6; */
 		}
 
 	</style>
