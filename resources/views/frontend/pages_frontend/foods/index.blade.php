@@ -48,7 +48,7 @@
                                     
                                     <div class="row">
                                         <div class="col-md-6">
-                                        <div class="price" style="font-size:15px;">{{ $foodmenu->foodmenu_price }} UGX</div>
+                                        <div class="price" style="font-size:15px;">{{ $foodmenu->foodmenu_price }} <span style="font-size:10px;">ugx</span></div>
                                         </div>
                                         <div class="col-md-6">
                                         <div class="price" style="font-size:15px;">
