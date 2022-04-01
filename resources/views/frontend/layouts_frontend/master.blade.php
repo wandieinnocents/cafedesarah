@@ -41,7 +41,7 @@
   			background-repeat: no-repeat;
 			background-attachment: fixed;
  			background-position: center; 
-            opacity: 0.3;
+            /* opacity: 0.3; */
 			 			 /* opacity: 0.6; */
 		}
 
@@ -57,22 +57,15 @@
 
 		<!-- Navigation  -->
         @include('frontend.includes_frontend.header_frontend')
-
-		
-
 		<!-- Content section -->
 		@yield('content')
 		<!-- End content section -->
-
 		<!--Main Footer-->
         @include('frontend.includes_frontend.footer')
-
 	</div>
 	<!--End pagewrapper-->
-
 	<!--Scroll to top-->
 	<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
-
 	<!--Search Popup-->
 	<div id="search-popup" class="search-popup">
 		<div class="close-search theme-btn"><span class="fas fa-window-close"></span></div>
