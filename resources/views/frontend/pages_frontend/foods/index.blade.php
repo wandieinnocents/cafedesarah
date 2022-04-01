@@ -71,7 +71,7 @@
                                         <div class="col-md-6">
                                         <div class="price" style="font-size:15px;">
                                         <a href="" data-toggle="modal" data-target="#viewFoodModal"><span>Details<i class="fas fa-angle-right" style="margin-left:5px;"></i></span></a>
-                                      
+
                                     </div>
                                         </div>
                                     </div>
@@ -90,6 +90,36 @@
                 </div>
                 
             </div>
+
+            
+             <!-- The Modal -->
+             <div class="modal-dialog">
+                  <div class="modal" id="viewFoodModal">
+                <div class="modal-dialog" style="margin-top: 10%;">
+                <div class="modal-content">
+                
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                    <h4 class="modal-title">View Food Details</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                    <p>PRICE : {{ $foodmenu->foodmenu_price}} </p>
+                    <p>Description : {{ $foodmenu->foodmenu_description}} </p>
+                    </div>
+                    
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+            </div>
+            <!-- End of modal -->
             @endforeach
 
 
@@ -110,34 +140,6 @@
 
             
 
-             <!-- The Modal -->
-             <div class="modal-dialog">
-            <div class="modal" id="viewFoodModal">
-                <div class="modal-dialog" style="margin-top: 10%;">
-                <div class="modal-content">
-                
-                    <!-- Modal Header -->
-                    <div class="modal-header">
-                    <h4 class="modal-title">View Food Details</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-                    
-                    <!-- Modal body -->
-                    <div class="modal-body">
-                    <p>PRICE : 20000 </p>
-                    <p>Description : This is the Description </p>
-                    </div>
-                    
-                    <!-- Modal footer -->
-                    <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                    </div>
-                    
-                </div>
-                </div>
-            </div>
-</div>
-            <!-- End of modal -->
 <!--End Dishes Page Section-->
 
 
