@@ -113,18 +113,19 @@
              <!-- The Modal -->
              <div class="modal-dialog">
             <div class="modal" id="viewFoodModal">
-                <div class="modal-dialog" style="margin-top: 20%;">
+                <div class="modal-dialog" style="margin-top: 10%;">
                 <div class="modal-content">
                 
                     <!-- Modal Header -->
                     <div class="modal-header">
-                    <h4 class="modal-title">Modal Heading</h4>
+                    <h4 class="modal-title">View Food Details</h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
                     
                     <!-- Modal body -->
                     <div class="modal-body">
-                    Modal body..
+                    <p>PRICE : 20000 </p>
+                    <p>Description : This is the Description </p>
                     </div>
                     
                     <!-- Modal footer -->
