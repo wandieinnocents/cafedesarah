@@ -34,6 +34,13 @@
 	<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 
 	@yield('extra_scripts')
+
+	<style>
+		body {
+			background-image: url('https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_960_720.jpg')
+		}
+
+	</style>
 </head>
 
 <body>
