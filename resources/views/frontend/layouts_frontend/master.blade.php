@@ -36,14 +36,19 @@
 	@yield('extra_scripts')
 
 	<style>
-		body {
-			background-image: url('https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_960_720.jpg')
+		.imageBg {
+			background-image: url('https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_960_720.jpg');
+  			background-repeat: no-repeat;
+			background-attachment: fixed;
+ 			background-position: center; 
+            opacity: 0.3;
+			 			 /* opacity: 0.6; */
 		}
 
 	</style>
 </head>
 
-<body>
+<body class="imageBg">
 
 	<div class="page-wrapper">
 
