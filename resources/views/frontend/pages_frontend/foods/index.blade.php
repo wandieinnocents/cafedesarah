@@ -5,6 +5,20 @@
 @endsection
 
 @section('extra_styles')
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+<!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"/> -->
+
+<style>
+    .modal {
+  background: rgba(0, 0, 0, 0.5); 
+}
+.modal-backdrop {
+  display: none;
+  margin-top:80px;
+}
+
+
+</style>
 
 @endsection
 
@@ -56,7 +70,8 @@
                                         </div>
                                         <div class="col-md-6">
                                         <div class="price" style="font-size:15px;">
-                                        <a href=""><span>Details<i class="fas fa-angle-right" style="margin-left:5px;"></i></span></a>
+                                        <a href="" data-toggle="modal" data-target="#viewFoodModal"><span>Details<i class="fas fa-angle-right" style="margin-left:5px;"></i></span></a>
+                                      
                                     </div>
                                         </div>
                                     </div>
@@ -78,6 +93,8 @@
             @endforeach
 
 
+            
+
 
         </div>
 
@@ -87,7 +104,39 @@
 				</div> -->
 
     </div>
+
 </section>
+
+
+            
+
+             <!-- The Modal -->
+             <div class="modal-dialog">
+            <div class="modal" id="viewFoodModal">
+                <div class="modal-dialog" style="margin-top: 20%;">
+                <div class="modal-content">
+                
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                    <h4 class="modal-title">Modal Heading</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                    Modal body..
+                    </div>
+                    
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+</div>
+            <!-- End of modal -->
 <!--End Dishes Page Section-->
 
 
@@ -96,5 +145,6 @@
 @endsection
 
 @section('extra_scripts')
+
 
 @endsection
