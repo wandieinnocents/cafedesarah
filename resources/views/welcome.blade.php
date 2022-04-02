@@ -138,7 +138,11 @@
 								
 								<!-- Modal body -->
 								<div class="modal-body">
-								<img src="{{ $foodmenu->foodmenu_photo}}" alt="" style="height:271px; max-height: 336px; max-width:336px; width: 100%;">								<br>
+								<center>
+								<img src="{{ $foodmenu->foodmenu_photo}}" alt="" style="height:271px; max-height: 336px; max-width:336px; width: 100%;">
+								</center>
+								
+								<br>
 								<hr>
 
 								<p>PRICE : {{$foodmenu->foodmenu_name}} </p>
@@ -200,7 +204,11 @@
 								
 								<!-- Modal body -->
 								<div class="modal-body">
-								<img src="{{ $foodmenu->foodmenu_photo}}" alt="" style="height:271px; max-height: 336px; max-width:336px; width: 100%;">								<br>
+								<center>
+								<img src="{{ $foodmenu->foodmenu_photo}}" alt="" style="height:271px; max-height: 336px;  width: 100%;">
+								</center>
+																
+								<br>
 								<hr>
 
 
@@ -229,7 +237,7 @@
 							<div class="inner-box">
 									<figure class="image-box">
 										<!-- <img src="assets/frontend_assets/assets/images/resource/products/1.jpg" alt=""> -->
-										<img src="{{ $foodmenu->foodmenu_photo}}" alt="" style="height:271px; max-height: 336px; max-width:336px; width: 100%;">										
+										<img src="{{ $foodmenu->foodmenu_photo}}" alt="" style="height:271px; max-height: 336px;  width: 100%;">										
 									</figure>
 									<div class="lower-content">
 									<br>
@@ -268,7 +276,10 @@
 									
 									<!-- Modal body -->
 									<div class="modal-body">
-									<img src="{{ $foodmenu->foodmenu_photo}}" alt="" style="height:271px; max-height: 336px; max-width:336px; width: 100%;">									<br>
+									<center>
+									<img src="{{ $foodmenu->foodmenu_photo}}" alt="" style="height:271px; max-height: 336px;  width: 100%;">
+									</center>
+									<br>
 									<hr>
 
 									<p>PRICE : {{$foodmenu->foodmenu_name}} </p>
