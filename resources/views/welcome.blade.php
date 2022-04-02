@@ -100,7 +100,8 @@
 						<div class="product-block all mix salad fest wraps foods col-lg-3 col-md-6 col-sm-12">
 							<div class="inner-box">
 								<figure class="image-box" >
-									<img src="assets/frontend_assets/assets/images/resource/products/1.jpg" alt="" >
+									<!-- <img src="assets/frontend_assets/assets/images/resource/products/1.jpg" alt="" > -->
+									<img src="{{ $foodmenu->foodmenu_photo}}" >
 								</figure>
 								<div class="lower-content">
 								<br>
@@ -205,9 +206,6 @@
 								<br>
 								<hr>
 
-								<img src="{{ $foodmenu->foodmenu_photo}}" >
-								<br>
-								<hr>
 
 								<p>PRICE : {{$foodmenu->foodmenu_name}} </p>
 								<hr>
@@ -233,7 +231,9 @@
 							<div class="product-block all mix pizza col-lg-3 col-md-6 col-sm-12">
 							<div class="inner-box">
 									<figure class="image-box">
-										<img src="assets/frontend_assets/assets/images/resource/products/1.jpg" alt="">
+										<!-- <img src="assets/frontend_assets/assets/images/resource/products/1.jpg" alt=""> -->
+										<img src="{{ $foodmenu->foodmenu_photo}}" >
+										
 									</figure>
 									<div class="lower-content">
 									<br>
@@ -273,8 +273,8 @@
                     <!-- Modal body -->
                     <div class="modal-body">
 					<img src="{{ $foodmenu->foodmenu_photo}}" >
-								<br>
-								<hr>
+					<br>
+					<hr>
 
                     <p>PRICE : {{$foodmenu->foodmenu_name}} </p>
                     <hr>
