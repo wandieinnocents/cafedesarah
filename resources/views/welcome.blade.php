@@ -173,7 +173,7 @@
 
 										<div class="text">
 											
-											{{ \Illuminate\Support\Str::limit( $foodmenu->foodmenu_description , 150, $end='...') }}
+											{{ \Illuminate\Support\Str::limit( $foodmenu->foodmenu_description , 60, $end='...') }}
 
 										</div>
 										<div class="price">${{ $foodmenu->foodmenu_price }}</div>
@@ -236,7 +236,7 @@
 										<div class="text">
 
 											
-											{{ \Illuminate\Support\Str::limit( $foodmenu->foodmenu_description  , 150, $end='...') }}
+											{{ \Illuminate\Support\Str::limit( $foodmenu->foodmenu_description  , 60, $end='...') }}
 
 										</div>
 										<div class="price">${{ $foodmenu->foodmenu_price }}</div>
