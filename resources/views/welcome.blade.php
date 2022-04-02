@@ -103,6 +103,7 @@
 									<img src="assets/frontend_assets/assets/images/resource/products/1.jpg" alt="">
 								</figure>
 								<div class="lower-content">
+								<br>
 								<span class="badge badge-pill badge-primary">{{ $foodmenu->foodmenu_category_r->foodmenu_category_name }}</span>
 								<!-- open modal with details -->
 								<br>
@@ -163,6 +164,7 @@
 										<img src="{{ $foodmenu->foodmenu_photo}}" alt="">
 									</figure>
 									<div class="lower-content">
+									<br>
 									<span class="badge badge-pill badge-primary">{{ $foodmenu->foodmenu_category_r->foodmenu_category_name }}</span>
 									<br>
 								<a href="" data-toggle="modal" data-target="#viewFoodModal{{$foodmenu->id}}"><span>Details<i class="fas fa-angle-right" style="margin-left:5px;"></i></span></a>
@@ -184,35 +186,35 @@
 							</div>
 
 										
-			 <!-- The Modal -->
-             <div class="modal-dialog">
-                  <div class="modal" id="viewFoodModal{{$foodmenu->id}}">
-                <div class="modal-dialog" style="margin-top: 10%;">
-                <div class="modal-content">
-                
-                    <!-- Modal Header -->
-                    <div class="modal-header">
-                    <h4 class="modal-title">View Food Details</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-                    
-                    <!-- Modal body -->
-                    <div class="modal-body">
-                    <p>PRICE : {{$foodmenu->foodmenu_name}} </p>
-                    <hr>
-                    <p>Description : {{$foodmenu->foodmenu_description}}</p>
-                    </div>
-                    
-                    <!-- Modal footer -->
-                    <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                    </div>
-                    
-                </div>
-                </div>
-            </div>
-            </div>
-            <!-- End of modal -->
+						<!-- The Modal -->
+						<div class="modal-dialog">
+							<div class="modal" id="viewFoodModal{{$foodmenu->id}}">
+							<div class="modal-dialog" style="margin-top: 10%;">
+							<div class="modal-content">
+							
+								<!-- Modal Header -->
+								<div class="modal-header">
+								<h4 class="modal-title">View Food Details</h4>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								</div>
+								
+								<!-- Modal body -->
+								<div class="modal-body">
+								<p>PRICE : {{$foodmenu->foodmenu_name}} </p>
+								<hr>
+								<p>Description : {{$foodmenu->foodmenu_description}}</p>
+								</div>
+								
+								<!-- Modal footer -->
+								<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								</div>
+								
+							</div>
+							</div>
+						</div>
+						</div>
+						<!-- End of modal -->
 
 						@endforeach
 
@@ -225,6 +227,7 @@
 										<img src="assets/frontend_assets/assets/images/resource/products/1.jpg" alt="">
 									</figure>
 									<div class="lower-content">
+									<br>
 									<span class="badge badge-pill badge-primary">{{ $foodmenu->foodmenu_category_r->foodmenu_category_name }}</span>
 									<br>
 								<a href="" data-toggle="modal" data-target="#viewFoodModal{{$foodmenu->id}}"><span>Details<i class="fas fa-angle-right" style="margin-left:5px;"></i></span></a>
