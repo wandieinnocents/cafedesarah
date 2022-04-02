@@ -106,7 +106,7 @@
 								<span class="badge badge-pill badge-primary">{{ $foodmenu->foodmenu_category_r->foodmenu_category_name }}</span>
 								<!-- open modal with details -->
 								<br>
-								<a href="" data-toggle="modal" data-target="#viewFoodModal"><span>Details<i class="fas fa-angle-right" style="margin-left:5px;"></i></span></a>
+								<a href="" data-toggle="modal" data-target="#viewFoodModal{{$foodmenu->id}}"><span>Details<i class="fas fa-angle-right" style="margin-left:5px;"></i></span></a>
 
 
 
@@ -124,6 +124,37 @@
 								</div>
 							</div>
 						</div>
+
+						
+			 <!-- The Modal -->
+             <div class="modal-dialog">
+                  <div class="modal" id="viewFoodModal{{$foodmenu->id}}">
+                <div class="modal-dialog" style="margin-top: 10%;">
+                <div class="modal-content">
+                
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                    <h4 class="modal-title">View Food Details</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                    <p>PRICE : kja </p>
+                    <hr>
+                    <p>Description : alkkajf</p>
+                    </div>
+                    
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+            </div>
+            <!-- End of modal -->
 						@endforeach
 
 						<!-- Chicken - Products Block -->
@@ -137,7 +168,6 @@
 									<span class="badge badge-pill badge-primary">{{ $foodmenu->foodmenu_category_r->foodmenu_category_name }}</span>
 										<h4><a href="shop-single.html">{{ $foodmenu->foodmenu_name }}</a> </h4>
 										<div class="text">
-
 											
 											{{ \Illuminate\Support\Str::limit( $foodmenu->foodmenu_description , 150, $end='...') }}
 
@@ -273,35 +303,6 @@
 
 			
 
-			 <!-- The Modal -->
-             <div class="modal-dialog">
-                  <div class="modal" id="viewFoodModal">
-                <div class="modal-dialog" style="margin-top: 10%;">
-                <div class="modal-content">
-                
-                    <!-- Modal Header -->
-                    <div class="modal-header">
-                    <h4 class="modal-title">View Food Details</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-                    
-                    <!-- Modal body -->
-                    <div class="modal-body">
-                    <p>PRICE : PRICE </p>
-                    <hr>
-                    <p>Description : DESCRIPTION </p>
-                    </div>
-                    
-                    <!-- Modal footer -->
-                    <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                    </div>
-                    
-                </div>
-                </div>
-            </div>
-            </div>
-            <!-- End of modal -->
 
 
 

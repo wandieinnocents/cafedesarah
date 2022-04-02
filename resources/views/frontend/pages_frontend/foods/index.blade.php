@@ -97,7 +97,6 @@
                   <div class="modal" id="viewFoodModal{{$foodmenu->id}}">
                 <div class="modal-dialog" style="margin-top: 10%;">
                 <div class="modal-content">
-                
                     <!-- Modal Header -->
                     <div class="modal-header">
                     <h4 class="modal-title">View Food Details</h4>
