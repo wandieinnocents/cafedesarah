@@ -99,8 +99,8 @@
 						@foreach($foodmenus as $foodmenu)
 						<div class="product-block all mix salad fest wraps foods col-lg-3 col-md-6 col-sm-12">
 							<div class="inner-box">
-								<figure class="image-box">
-									<img src="assets/frontend_assets/assets/images/resource/products/1.jpg" alt="">
+								<figure class="image-box" >
+									<img src="assets/frontend_assets/assets/images/resource/products/1.jpg" alt="" >
 								</figure>
 								<div class="lower-content">
 								<br>
@@ -112,8 +112,6 @@
 								<h4>{{ $foodmenu->foodmenu_name }}</h4>
 									<div class="text">
 										{{ \Illuminate\Support\Str::limit($foodmenu->foodmenu_description, 60, $end='...') }}
-										
-
 									</div>
 									<div class="price">UGX {{ $foodmenu->foodmenu_price }}</div>
 									<div class="lower-box">
@@ -139,6 +137,10 @@
 								
 								<!-- Modal body -->
 								<div class="modal-body">
+								<img src="{{ $foodmenu->foodmenu_photo}}" >
+								<br>
+								<hr>
+
 								<p>PRICE : {{$foodmenu->foodmenu_name}} </p>
 								<hr>
 								<p>Description : {{$foodmenu->foodmenu_description}}</p>
@@ -160,9 +162,8 @@
 						@foreach($foodmenus_chicken_categories as $foodmenu)
 							<div class="product-block all mix chicken col-lg-3 col-md-6 col-sm-12">
 							<div class="inner-box">
-									<figure class="image-box">
 										<img src="{{ $foodmenu->foodmenu_photo}}" alt="">
-									</figure>
+								
 									<div class="lower-content">
 									<br>
 									<span class="badge badge-pill badge-primary">{{ $foodmenu->foodmenu_category_r->foodmenu_category_name }}</span>
@@ -200,6 +201,14 @@
 								
 								<!-- Modal body -->
 								<div class="modal-body">
+								<img src="{{ $foodmenu->foodmenu_photo}}" >
+								<br>
+								<hr>
+
+								<img src="{{ $foodmenu->foodmenu_photo}}" >
+								<br>
+								<hr>
+
 								<p>PRICE : {{$foodmenu->foodmenu_name}} </p>
 								<hr>
 								<p>Description : {{$foodmenu->foodmenu_description}}</p>
@@ -263,6 +272,10 @@
                     
                     <!-- Modal body -->
                     <div class="modal-body">
+					<img src="{{ $foodmenu->foodmenu_photo}}" >
+								<br>
+								<hr>
+
                     <p>PRICE : {{$foodmenu->foodmenu_name}} </p>
                     <hr>
                     <p>Description : {{$foodmenu->foodmenu_description}}</p>
