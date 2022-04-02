@@ -4,6 +4,25 @@
 
 @endsection
 
+
+@section('extra_styles')
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+<!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"/> -->
+
+<style>
+    .modal {
+  background: rgba(0, 0, 0, 0.5); 
+}
+.modal-backdrop {
+  display: none;
+  margin-top:80px;
+}
+
+
+</style>
+
+@endsection
+
 @section('content')
 <!-- content  -->
 
@@ -85,6 +104,12 @@
 								</figure>
 								<div class="lower-content">
 								<span class="badge badge-pill badge-primary">{{ $foodmenu->foodmenu_category_r->foodmenu_category_name }}</span>
+								<!-- open modal with details -->
+								<br>
+								<a href="" data-toggle="modal" data-target="#viewFoodModal"><span>Details<i class="fas fa-angle-right" style="margin-left:5px;"></i></span></a>
+
+
+
 									<h4><a href="shop-single.html">{{ $foodmenu->foodmenu_name }}</a> </h4>
 									<div class="text">
 										{{ \Illuminate\Support\Str::limit($foodmenu->foodmenu_description, 100, $end='...') }}
@@ -245,6 +270,39 @@
 
 				</div>
 			</div>
+
+			
+
+			 <!-- The Modal -->
+             <div class="modal-dialog">
+                  <div class="modal" id="viewFoodModal">
+                <div class="modal-dialog" style="margin-top: 10%;">
+                <div class="modal-content">
+                
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                    <h4 class="modal-title">View Food Details</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                    <p>PRICE : PRICE </p>
+                    <hr>
+                    <p>Description : DESCRIPTION </p>
+                    </div>
+                    
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+            </div>
+            <!-- End of modal -->
+
 
 
 		</section>
