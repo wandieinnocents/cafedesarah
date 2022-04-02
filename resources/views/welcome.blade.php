@@ -140,9 +140,9 @@
                     
                     <!-- Modal body -->
                     <div class="modal-body">
-                    <p>PRICE : kja </p>
+                    <p>PRICE : {{$foodmenu->foodmenu_name}} </p>
                     <hr>
-                    <p>Description : alkkajf</p>
+                    <p>Description : {{$foodmenu->foodmenu_description}}</p>
                     </div>
                     
                     <!-- Modal footer -->
