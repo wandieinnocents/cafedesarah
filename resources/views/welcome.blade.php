@@ -313,7 +313,7 @@
 							<h1>Veggi Fun Pizza</h1>
 							<div class="order-price">
 								<div class="price-inner">
-									<div class="price"><sup>$</sup>12<sub>Each</sub></div>
+									<!-- <div class="price"><sup>$</sup>12<sub>Each</sub></div> -->
 									<ul class="order-offer">
 										<li>- Chicken Hallon</li>
 										<li>- Summer Pizza</li>
