@@ -107,10 +107,7 @@
 								<!-- open modal with details -->
 								<br>
 								<a href="" data-toggle="modal" data-target="#viewFoodModal{{$foodmenu->id}}"><span>Details<i class="fas fa-angle-right" style="margin-left:5px;"></i></span></a>
-
-
-
-									<h4><a href="shop-single.html">{{ $foodmenu->foodmenu_name }}</a> </h4>
+									<h4>{{ $foodmenu->foodmenu_name }}</h4>
 									<div class="text">
 										{{ \Illuminate\Support\Str::limit($foodmenu->foodmenu_description, 100, $end='...') }}
 										
