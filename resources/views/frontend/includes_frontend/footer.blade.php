@@ -12,8 +12,8 @@
 								<h4>Contact Info</h4>
 								<a class="number" href="tel:1800-574-9687">+974 33271165</a>
 								<ul class="email-list">
-									<li><a href="mailto:info@cafedesarah.com">info@cafedesarah.com</a></li>
-									<li><a href="mailto:support@cafedesarah.com">support@cafedesarah.com</a></li>
+									<li><a href="mailto:info@lacuisinedesarah.com">info@lacuisinedesarah.com</a></li>
+									<li><a href="mailto:support@lacuisinedesarah.com">support@lacuisinedesarah.com</a></li>
 								</ul>
 							</div>
 						</div>
