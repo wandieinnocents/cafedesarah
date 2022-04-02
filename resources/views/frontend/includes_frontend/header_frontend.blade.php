@@ -6,8 +6,8 @@
 						<!-- Info List -->
 						<ul class="info-list">
 							<li>Quality service to you.</li>
-							<li><a href="mailto:info@wengdo.com"><span class="icon far fa-envelope"></span>
-									info@cafedesarah.com</a></li>
+							<li><a href="mailto:info@lacuisinedesarah.com"><span class="icon far fa-envelope"></span>
+									info@lacuisinedesarah.com</a></li>
 						</ul>
 					</div>
 					<div class="top-right clearfix">
