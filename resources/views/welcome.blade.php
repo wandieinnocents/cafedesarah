@@ -107,13 +107,14 @@
 								<!-- open modal with details -->
 								<br>
 								<a href="" data-toggle="modal" data-target="#viewFoodModal{{$foodmenu->id}}"><span>Details<i class="fas fa-angle-right" style="margin-left:5px;"></i></span></a>
-									<h4>{{ $foodmenu->foodmenu_name }}</h4>
+									
+								<h4>{{ $foodmenu->foodmenu_name }}</h4>
 									<div class="text">
-										{{ \Illuminate\Support\Str::limit($foodmenu->foodmenu_description, 100, $end='...') }}
+										{{ \Illuminate\Support\Str::limit($foodmenu->foodmenu_description, 60, $end='...') }}
 										
 
 									</div>
-									<div class="price">${{ $foodmenu->foodmenu_price }}</div>
+									<div class="price">UGX {{ $foodmenu->foodmenu_price }}</div>
 									<div class="lower-box">
 										<!-- <a href="shop-single.html" class="theme-btn btn-style-five"><span
 												class="txt">Order Now</span></a> -->
@@ -122,7 +123,67 @@
 							</div>
 						</div>
 
-						
+									
+						<!-- The Modal -->
+						<div class="modal-dialog">
+							<div class="modal" id="viewFoodModal{{$foodmenu->id}}">
+							<div class="modal-dialog" style="margin-top: 10%;">
+							<div class="modal-content">
+							
+								<!-- Modal Header -->
+								<div class="modal-header">
+								<h4 class="modal-title">View Food Details</h4>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+								</div>
+								
+								<!-- Modal body -->
+								<div class="modal-body">
+								<p>PRICE : {{$foodmenu->foodmenu_name}} </p>
+								<hr>
+								<p>Description : {{$foodmenu->foodmenu_description}}</p>
+								</div>
+								
+								<!-- Modal footer -->
+								<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+								</div>
+								
+							</div>
+							</div>
+						</div>
+						</div>
+						<!-- End of modal -->
+						@endforeach
+
+						<!-- Chicken - Products Block -->
+						@foreach($foodmenus_chicken_categories as $foodmenu)
+							<div class="product-block all mix chicken col-lg-3 col-md-6 col-sm-12">
+							<div class="inner-box">
+									<figure class="image-box">
+										<img src="{{ $foodmenu->foodmenu_photo}}" alt="">
+									</figure>
+									<div class="lower-content">
+									<span class="badge badge-pill badge-primary">{{ $foodmenu->foodmenu_category_r->foodmenu_category_name }}</span>
+									<br>
+								<a href="" data-toggle="modal" data-target="#viewFoodModal{{$foodmenu->id}}"><span>Details<i class="fas fa-angle-right" style="margin-left:5px;"></i></span></a>
+								
+										<h4><a href="shop-single.html">{{ $foodmenu->foodmenu_name }}</a> </h4>
+
+										<div class="text">
+											
+											{{ \Illuminate\Support\Str::limit( $foodmenu->foodmenu_description , 150, $end='...') }}
+
+										</div>
+										<div class="price">${{ $foodmenu->foodmenu_price }}</div>
+										<div class="lower-box">
+											<!-- <a href="shop-single.html" class="theme-btn btn-style-five"><span
+													class="txt">Order Now</span></a> -->
+										</div>
+									</div>
+								</div>
+							</div>
+
+										
 			 <!-- The Modal -->
              <div class="modal-dialog">
                   <div class="modal" id="viewFoodModal{{$foodmenu->id}}">
@@ -152,31 +213,7 @@
             </div>
             </div>
             <!-- End of modal -->
-						@endforeach
 
-						<!-- Chicken - Products Block -->
-						@foreach($foodmenus_chicken_categories as $foodmenu)
-							<div class="product-block all mix chicken col-lg-3 col-md-6 col-sm-12">
-							<div class="inner-box">
-									<figure class="image-box">
-										<img src="{{ $foodmenu->foodmenu_photo}}" alt="">
-									</figure>
-									<div class="lower-content">
-									<span class="badge badge-pill badge-primary">{{ $foodmenu->foodmenu_category_r->foodmenu_category_name }}</span>
-										<h4><a href="shop-single.html">{{ $foodmenu->foodmenu_name }}</a> </h4>
-										<div class="text">
-											
-											{{ \Illuminate\Support\Str::limit( $foodmenu->foodmenu_description , 150, $end='...') }}
-
-										</div>
-										<div class="price">${{ $foodmenu->foodmenu_price }}</div>
-										<div class="lower-box">
-											<!-- <a href="shop-single.html" class="theme-btn btn-style-five"><span
-													class="txt">Order Now</span></a> -->
-										</div>
-									</div>
-								</div>
-							</div>
 						@endforeach
 
 						<!-- Pizza products block -->
@@ -189,6 +226,9 @@
 									</figure>
 									<div class="lower-content">
 									<span class="badge badge-pill badge-primary">{{ $foodmenu->foodmenu_category_r->foodmenu_category_name }}</span>
+									<br>
+								<a href="" data-toggle="modal" data-target="#viewFoodModal{{$foodmenu->id}}"><span>Details<i class="fas fa-angle-right" style="margin-left:5px;"></i></span></a>
+								
 										<h4><a href="shop-single.html">{{ $foodmenu->foodmenu_name }}</a> </h4>
 										<div class="text">
 
@@ -204,6 +244,38 @@
 									</div>
 								</div>
 							</div>
+
+										
+			 <!-- The Modal -->
+             <div class="modal-dialog">
+                  <div class="modal" id="viewFoodModal{{$foodmenu->id}}">
+                <div class="modal-dialog" style="margin-top: 10%;">
+                <div class="modal-content">
+                
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                    <h4 class="modal-title">View Food Details</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                    <p>PRICE : {{$foodmenu->foodmenu_name}} </p>
+                    <hr>
+                    <p>Description : {{$foodmenu->foodmenu_description}}</p>
+                    </div>
+                    
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+            </div>
+            <!-- End of modal -->
+
 						@endforeach
 					</div>
 
