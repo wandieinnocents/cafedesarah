@@ -321,7 +321,7 @@
 									</ul>
 								</div>
 							</div>
-							<a href="shop-single.html" class="theme-btn btn-style-two"><span class="txt">Order
+							<a href="/book/create" class="theme-btn btn-style-two"><span class="txt">Book
 									Now</span></a>
 						</div>
 					</div>
