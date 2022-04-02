@@ -101,7 +101,7 @@
 							<div class="inner-box">
 								<figure class="image-box" >
 									<!-- <img src="assets/frontend_assets/assets/images/resource/products/1.jpg" alt="" > -->
-									<img src="{{ $foodmenu->foodmenu_photo}}" >
+									<img src="{{ $foodmenu->foodmenu_photo}}" alt="" style="height:271px; max-height: 336px; max-width:336px; width: 100%;">
 								</figure>
 								<div class="lower-content">
 								<br>
@@ -138,8 +138,7 @@
 								
 								<!-- Modal body -->
 								<div class="modal-body">
-								<img src="{{ $foodmenu->foodmenu_photo}}" >
-								<br>
+								<img src="{{ $foodmenu->foodmenu_photo}}" alt="" style="height:271px; max-height: 336px; max-width:336px; width: 100%;">								<br>
 								<hr>
 
 								<p>PRICE : {{$foodmenu->foodmenu_name}} </p>
@@ -163,8 +162,7 @@
 						@foreach($foodmenus_chicken_categories as $foodmenu)
 							<div class="product-block all mix chicken col-lg-3 col-md-6 col-sm-12">
 							<div class="inner-box">
-										<img src="{{ $foodmenu->foodmenu_photo}}" alt="">
-								
+							<img src="{{ $foodmenu->foodmenu_photo}}" alt="" style="height:271px; max-height: 336px; max-width:336px; width: 100%;">								
 									<div class="lower-content">
 									<br>
 									<span class="badge badge-pill badge-primary">{{ $foodmenu->foodmenu_category_r->foodmenu_category_name }}</span>
@@ -202,8 +200,7 @@
 								
 								<!-- Modal body -->
 								<div class="modal-body">
-								<img src="{{ $foodmenu->foodmenu_photo}}" >
-								<br>
+								<img src="{{ $foodmenu->foodmenu_photo}}" alt="" style="height:271px; max-height: 336px; max-width:336px; width: 100%;">								<br>
 								<hr>
 
 
@@ -232,8 +229,7 @@
 							<div class="inner-box">
 									<figure class="image-box">
 										<!-- <img src="assets/frontend_assets/assets/images/resource/products/1.jpg" alt=""> -->
-										<img src="{{ $foodmenu->foodmenu_photo}}" >
-										
+										<img src="{{ $foodmenu->foodmenu_photo}}" alt="" style="height:271px; max-height: 336px; max-width:336px; width: 100%;">										
 									</figure>
 									<div class="lower-content">
 									<br>
@@ -257,40 +253,39 @@
 								</div>
 							</div>
 
-										
-			 <!-- The Modal -->
-             <div class="modal-dialog">
-                  <div class="modal" id="viewFoodModal{{$foodmenu->id}}">
-                <div class="modal-dialog" style="margin-top: 10%;">
-                <div class="modal-content">
-                
-                    <!-- Modal Header -->
-                    <div class="modal-header">
-                    <h4 class="modal-title">View Food Details</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-                    
-                    <!-- Modal body -->
-                    <div class="modal-body">
-					<img src="{{ $foodmenu->foodmenu_photo}}" >
-					<br>
-					<hr>
+														
+							<!-- The Modal -->
+							<div class="modal-dialog">
+								<div class="modal" id="viewFoodModal{{$foodmenu->id}}">
+								<div class="modal-dialog" style="margin-top: 10%;">
+								<div class="modal-content">
+								
+									<!-- Modal Header -->
+									<div class="modal-header">
+									<h4 class="modal-title">View Food Details</h4>
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									</div>
+									
+									<!-- Modal body -->
+									<div class="modal-body">
+									<img src="{{ $foodmenu->foodmenu_photo}}" alt="" style="height:271px; max-height: 336px; max-width:336px; width: 100%;">									<br>
+									<hr>
 
-                    <p>PRICE : {{$foodmenu->foodmenu_name}} </p>
-                    <hr>
-                    <p>Description : {{$foodmenu->foodmenu_description}}</p>
-                    </div>
-                    
-                    <!-- Modal footer -->
-                    <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                    </div>
-                    
-                </div>
-                </div>
-            </div>
-            </div>
-            <!-- End of modal -->
+									<p>PRICE : {{$foodmenu->foodmenu_name}} </p>
+									<hr>
+									<p>Description : {{$foodmenu->foodmenu_description}}</p>
+									</div>
+									
+									<!-- Modal footer -->
+									<div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+									</div>
+									
+								</div>
+								</div>
+							</div>
+							</div>
+							<!-- End of modal -->
 
 						@endforeach
 					</div>
