@@ -40,9 +40,7 @@
   			background-repeat: no-repeat;
 			background-attachment: fixed;
  			background-position: center; 
-			 background-size: 500px 500px;
-			/* opacity:0.5; */
-			
+			 background-size: 500px 500px;			
 		}
 
 	</style>
