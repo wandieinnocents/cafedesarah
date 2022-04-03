@@ -13,7 +13,7 @@
 			<div class="auto-container">
 				<h1>Drink Menus</h1>
 				<ul class="bread-crumb clearfix">
-					<li><a href="index-2.html">Home</a></li>
+					<li><a href="/">Home</a></li>
 					<li>Drinks</li>
 					
 				</ul>
