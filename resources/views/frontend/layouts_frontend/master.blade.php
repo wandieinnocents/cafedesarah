@@ -4,7 +4,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>La Cuisine De Sarah
+	<title>{{ @yield('title')}}
 </title>
 	<!-- Stylesheets -->
 	<link href="{{ asset('assets/frontend_assets/assets/css/bootstrap.css') }}" rel="stylesheet">
