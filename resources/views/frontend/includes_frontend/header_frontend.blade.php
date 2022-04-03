@@ -72,7 +72,7 @@
 										<li class="dropdown"><a href="#">Our Menu</a>
 											<ul>
 												<li><a href="/foods">Food Menu</a></li>
-												<li><a href="/drinks">Drinks Menu</a></li>
+												<!-- <li><a href="/drinks">Drinks Menu</a></li> -->
 											</ul>
 										</li>
 										
@@ -140,7 +140,7 @@
 										<li class="dropdown"><a href="#">Our Menu</a>
 											<ul>
 												<li><a href="/foods">Food Menu</a></li>
-												<li><a href="/drinks">Drinks Menu</a></li>
+												<!-- <li><a href="/drinks">Drinks Menu</a></li> -->
 											</ul>
 										</li>
 										
