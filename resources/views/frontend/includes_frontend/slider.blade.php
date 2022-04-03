@@ -67,8 +67,9 @@
 								data-frames='[{"from":"x:-50px;rY:20deg;sX:0.8;sY:0.8;opacity:0;","speed":3000,"to":"o:1;","delay":2250,"ease":"Power4.easeOut"},{"delay":"wait","speed":1500,"to":"opacity:0;","ease":"Power4.easeIn"}]'
 								data-textAlign="['right','right','right','right']" data-paddingtop="[0,0,0,0]"
 								data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
-								data-paddingleft="[0,0,0,0]" style="z-index: -1;border-width:0px;cursor:pointer;"><img
-									src="assets/frontend_assets/assets/images/main-slider/slider-item-1.png" alt=""
+								data-paddingleft="[0,0,0,0]" style="z-index: -1;border-width:0px;cursor:pointer;">
+								
+								<img src="assets/frontend_assets/assets/images/main-slider/slider-item-1.png" alt=""
 									data-ww="['591px','500px','400px','200px','200px']"
 									data-hh="['447px','400px','310px','150px','150px']" data-no-retina />
 							</div>
