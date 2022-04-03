@@ -23,7 +23,7 @@
 							<!-- Logo Widget -->
 							<div class="footer-widget logo-widget">
 								<div class="logo">
-									<a href="index-2.html"><img src="{{ asset('assets/frontend_assets/assets/images/logo/white.png') }}" width="200" alt="" /></a>
+									<a href="javascript::void(0)"><img src="{{ asset('assets/frontend_assets/assets/images/logo/white.png') }}" width="200" alt="" /></a>
 								</div>
 								
 							</div>
