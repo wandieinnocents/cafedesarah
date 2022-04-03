@@ -1,7 +1,7 @@
 @extends('frontend.layouts_frontend.master')
 
 @section('title')
-
+Our Food Menu - La Cuisine De Sarah
 @endsection
 
 @section('extra_styles')
