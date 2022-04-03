@@ -1,7 +1,7 @@
 @extends('frontend.layouts_frontend.master')
 
 @section('title')
-
+Contact - La Cuisine De Sarah
 @endsection
 
 @section('content')
