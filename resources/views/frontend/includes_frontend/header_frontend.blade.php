@@ -90,7 +90,7 @@
 							<div class="outer-box">
 								<div class="order">
 									Call Now
-									<span><a href="tel:1800-456-7890">+974 33271165</a></span>
+									<span><a href="tel:+974 33271165">+974 33271165</a></span>
 								</div>
 							</div>
 
