@@ -49,7 +49,7 @@
 				<div class="footer-bottom">
 					<div class="clearfix">
 						<div class="pull-left">
-							<div class="copyright">&copy;. All right
+							<div class="copyright">&copy;All right
 								reserved. Design by : Wanran Inc</div>
 						</div>
 						<div class="pull-right">
