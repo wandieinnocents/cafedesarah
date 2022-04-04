@@ -32,7 +32,7 @@ Our Drink Menu - La Cuisine De Sarah
         <h1>Drink Menu</h1>
         <ul class="bread-crumb clearfix">
             <li><a href="/">Home</a></li>
-            <li>Our Foods</li>
+            <li>Our Drinks</li>
         </ul>
     </div>
 </section>
