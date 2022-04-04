@@ -44,7 +44,7 @@ Our Drink Menu - La Cuisine De Sarah
 
         <!-- Sec Title -->
         <div class="sec-title centered">
-            <h2>Our Food Menu</h2>
+            <h2>Our Drink Menu</h2>
         </div>
 
         <div class="row clearfix">
@@ -70,7 +70,7 @@ Our Drink Menu - La Cuisine De Sarah
                                         </div>
                                         <div class="col-md-6">
                                         <div class="price" style="font-size:15px;">
-                                        <a href="" data-toggle="modal" data-target="#viewFoodModal{{$drinkmenu->id}}"><span>Details<i class="fas fa-angle-right" style="margin-left:5px;"></i></span></a>
+                                        <a href="" data-toggle="modal" data-target="#viewDrinkModal{{$drinkmenu->id}}"><span>Details<i class="fas fa-angle-right" style="margin-left:5px;"></i></span></a>
 
                                     </div>
                                         </div>
@@ -94,12 +94,12 @@ Our Drink Menu - La Cuisine De Sarah
             
              <!-- The Modal -->
              <div class="modal-dialog">
-                  <div class="modal" id="viewFoodModal{{$drinkmenu->id}}">
+                  <div class="modal" id="viewDrinkModal{{$drinkmenu->id}}">
                 <div class="modal-dialog" style="margin-top: 10%;">
                 <div class="modal-content">
                     <!-- Modal Header -->
                     <div class="modal-header">
-                    <h4 class="modal-title">View Food Details</h4>
+                    <h4 class="modal-title">View Drink Details</h4>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
                     
