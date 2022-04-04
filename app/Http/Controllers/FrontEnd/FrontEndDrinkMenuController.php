@@ -17,7 +17,7 @@ class FrontEndDrinkMenuController extends Controller
     {
         $drinkmenus = DrinkMenu::all();
         // dd($drinkmenus);
-        return view('frontend.pages_frontend.drinks.index',);     
+        return view('frontend.pages_frontend.drinks.index',compact('drinkmenus'));     
     }
 
     /**
