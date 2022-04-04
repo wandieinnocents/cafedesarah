@@ -4,7 +4,7 @@ namespace App\Http\Controllers\FrontEnd;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\DrinkMenus;
+use App\Models\DrinkMenu;
 
 class FrontEndDrinkMenuController extends Controller
 {
@@ -16,8 +16,8 @@ class FrontEndDrinkMenuController extends Controller
     public function index()
     {
         $drinkmenus = DrinkMenu::all();
-        dd($drinkmenus);
-        return view('frontend.pages_frontend.drinks.index');     
+        // dd($drinkmenus);
+        return view('frontend.pages_frontend.drinks.index',);     
     }
 
     /**
