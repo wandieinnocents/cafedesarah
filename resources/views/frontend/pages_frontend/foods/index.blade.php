@@ -5,9 +5,6 @@ Our Food Menu - La Cuisine De Sarah
 @endsection
 
 @section('extra_styles')
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
-<!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"/> -->
-
 <style>
     .modal {
   background: rgba(0, 0, 0, 0.5); 

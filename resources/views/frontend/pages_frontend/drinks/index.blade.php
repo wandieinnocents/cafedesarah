@@ -5,9 +5,6 @@ Our Drink Menu - La Cuisine De Sarah
 @endsection
 
 @section('extra_styles')
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
-<!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"/> -->
-
 <style>
     .modal {
   background: rgba(0, 0, 0, 0.5); 
@@ -16,16 +13,11 @@ Our Drink Menu - La Cuisine De Sarah
   display: none;
   margin-top:80px;
 }
-
-
 </style>
-
 @endsection
 
 @section('content')
 <!-- content  -->
-
-
 <!-- Page Title -->
 <section class="page-title" style="background-image: url(assets/frontend_assets/assets/images/background/11.jpg)">
     <div class="auto-container">
@@ -122,14 +114,7 @@ Our Drink Menu - La Cuisine De Sarah
             </div>
             <!-- End of modal -->
             @endforeach
-
-
-            
-
-
         </div>
-
-        <!-- Button Box -->
         <!-- <div class="button-box text-center">
 					<a href="menu.html" class="theme-btn btn-style-five"><span class="txt">View full menu</span></a>
 				</div> -->
@@ -137,18 +122,8 @@ Our Drink Menu - La Cuisine De Sarah
     </div>
 
 </section>
-
-
-            
-
 <!--End Dishes Page Section-->
-
-
-
-
 @endsection
 
 @section('extra_scripts')
-
-
 @endsection
