@@ -105,6 +105,7 @@ Our Drink Menu - La Cuisine De Sarah
                     
                     <!-- Modal body -->
                     <div class="modal-body">
+					<p>DRINK : {{ $drinkmenu->drinkmenu_name}} </p>
                     <p>PRICE : {{ $drinkmenu->drinkmenu_price}} </p>
                     <hr>
                     <p>Description : {{ $drinkmenu->drinkmenu_description}} </p>
