@@ -105,6 +105,7 @@ Our Food Menu - La Cuisine De Sarah
                     
                     <!-- Modal body -->
                     <div class="modal-body">
+                    <p>FOOD : {{ $foodmenu->foodmenu_name}} </p>
                     <p>PRICE : {{ $foodmenu->foodmenu_price}} </p>
                     <hr>
                     <p>Description : {{ $foodmenu->foodmenu_description}} </p>
